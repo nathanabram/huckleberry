@@ -10,3 +10,47 @@ body {
 }
 
 /* Add styles here! */
+
+header {
+  padding-block: 80px;
+  padding-inline: 24px;
+
+}
+header .intro-chunk strong {
+  color: hsl(160deg, 100%, 30%)
+}
+@media (min-width: 650px) {
+  header {
+    padding-inline: 80px;
+  }
+}
+main {
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
+  padding-block: 32px;
+
+}
+
+@media (min-width: 650px) {
+  main {
+    padding-inline: 64px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding-inline: 24px;
+  padding-block: 8px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+.card h2 {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  line-height: 2;
+  font-size:1.5rem;
+}
+
+.indented-heading{
+  margin-left: -32px;
+  padding-left: 32px;
+}
